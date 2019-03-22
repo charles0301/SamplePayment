@@ -1,0 +1,150 @@
+{
+  "formatVersion": 1.0,
+  "menu": {
+     "Novalnet Merchant Configuartion": {
+        "label": "Config.globalTab",
+        "formFields": {
+           "api_key": {
+              "type": "inputText",
+              "required": true,
+              "label": "Config.globalapikey",
+              "options": {
+                 "tooltip": "Config.globalconfigTooltip",
+                 "defaultValue": "n7ibc7ob5t|doU3HJVoym7MQ44qonbobljblnmdli0p|qJEH3gNbeWJfIHah||f7cpn7pc"
+              }
+           },
+           "vendor": {
+              "type": "inputText",
+              "required": true,
+              "label": "Config.globalvendor",
+              "options": {
+                 "tooltip": "Config.globalconfigTooltip",
+                 "defaultValue": "4"
+              }
+           },
+           "auth_code": {
+              "type": "inputText",
+              "required": true,
+              "label": "Config.globalauthcode",
+              "options": {
+                 "tooltip": "Config.globalconfigTooltip",
+                 "defaultValue": "JyEtHUjjbHNJwVztW6JrafIMHQvici"
+              }
+           },
+           "tariff": {
+              "type": "selectBox",
+              "required": true,
+              "label": "Config.globaltariff",
+              "options": {
+                 "tooltip": "Config.globalconfigTooltip",
+                 "defaultValue": "",
+                 "selectBoxValues": [
+                          {
+                             "value": "30",
+                             "caption": "ZENCART DEMO Shop Betrag"
+                          },
+                          {
+                             "value": "240",
+                             "caption": "ZENCART DEMO Shop Fix Betrag"
+                          },
+                          {
+                             "value": "1326",
+                             "caption": "abotest"
+                          },
+                          {
+                             "value": "3607",
+                             "caption": "one time test tariff"
+                          }
+                       ]
+              }
+           },
+           "access_key": {
+              "type": "inputText",
+              "required": true,
+              "label": "Config.globalaccesskey",
+              "options": {
+                 "tooltip": "Config.globalconfigTooltip",
+                 "defaultValue": "a87ff679a2f3e71d9181a67b7542122c"
+              }
+           },
+           "referrer_id": {
+              "type": "inputText",
+              "required": true,
+              "label": "Config.globalreferrerid",
+              "options": {
+                 "tooltip": "Config.globalconfigTooltip",
+                 "defaultValue": "12345"
+              }
+           },
+           "notify_url": {
+              "type": "inputText",
+              "required": true,
+              "label": "Config.globalnotifyurl",
+              "options": {
+                 "tooltip": "Config.globalconfigTooltip",
+                 "defaultValue": ""
+              }
+           }
+        }
+     }
+  }
+    {
+        "tab"     : "Settings",
+        "key"     : "name",
+        "label"   : "Name",
+        "type"    : "text",
+        "default" : "Sample Payment"
+    },
+    {
+      "tab": "Settings",
+      "key": "infoPage.type",
+      "label": "Information page",
+      "type": "dropdown",
+      "possibleValues": {
+        "0": "None",
+        "1": "External content",
+        "2": "Internal content"
+      },
+      "default": "0"
+    },
+    {
+        "tab"     : "Settings",
+        "key"     : "infoPage.intern",
+        "label"   : "Internal information page",
+        "type"    : "category_select"
+    },
+    {
+        "tab"     : "Settings",
+        "key"     : "infoPage.extern",
+        "label"   : "External information page",
+        "type"    : "text",
+        "default" : ""
+    },
+    {
+        "tab"             : "Settings",
+        "key"             : "logo",
+        "label"           : "Logo",
+        "type"            : "dropdown",
+        "possibleValues"  :
+        {
+            "0" : "None",
+            "1" : "Logo URL"
+        },
+        "default"         : "0"
+    },
+    {
+        "tab"     : "Settings",
+        "key"     : "logo.url",
+        "label"   : "Logo URL",
+        "type"    : "text",
+        "default" : ""
+    },
+    {
+        "tab"     : "Settings",
+        "key"     : "shippingProfileId",
+        "label"   : "Shipping profile ID",
+        "type"    : "text",
+        "default" : ""
+    }
+}
+ 

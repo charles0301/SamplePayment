@@ -1,0 +1,13 @@
+{
+    "name"              : "SamplePayment",
+    "description"       : "My First Payment",
+    "author"            : "charles",
+    "keywords"          : ["plentymarkets", "payment method", "plugin"],
+    "type"              : "payment",
+    "version"           : "1.0.0",
+    "description"       : "this is my first payment plugin for dispaly the payment",
+    "namespace"         : "SamplePayment",
+    "email"             : "charles_a@novalnetsolutions.com",
+    "phone"             : "1234567890",
+    "serviceProvider"   : "SamplePayment\\Providers\\SamplePaymentServiceProvider"
+}
